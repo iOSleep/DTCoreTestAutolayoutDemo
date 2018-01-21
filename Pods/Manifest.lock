@@ -1,0 +1,32 @@
+PODS:
+  - DTCoreText (1.6.21):
+    - DTCoreText/Core (= 1.6.21)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.21):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.13)
+  - DTFoundation/DTAnimatedGIF (1.7.13)
+  - DTFoundation/DTHTMLParser (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.13):
+    - DTFoundation/Core
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - DTCoreText
+  - Masonry
+
+SPEC CHECKSUMS:
+  DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
+  DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: e695226733e5b3fd32b0795d42bc24aee541c4e4
+
+COCOAPODS: 1.4.0.rc.1

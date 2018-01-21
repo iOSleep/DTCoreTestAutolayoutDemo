@@ -13,9 +13,13 @@
 		5AF8B9AB2015198500B6A79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8B9AA2015198500B6A79B /* Assets.xcassets */; };
 		5AF8B9AE2015198500B6A79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF8B9AC2015198500B6A79B /* LaunchScreen.storyboard */; };
 		5AF8B9B12015198500B6A79B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8B9B02015198500B6A79B /* main.m */; };
+		5AF8B9B920151AD700B6A79B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8B9B820151AD600B6A79B /* UIView+Frame.m */; };
+		5AF8B9BC20151AE400B6A79B /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8B9BA20151AE300B6A79B /* MyLabel.m */; };
+		C3D466DC9890C57043C917E9 /* libPods-DTCoreTestAutolayoutDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B92E61B643D19E8F924A36 /* libPods-DTCoreTestAutolayoutDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25B92E61B643D19E8F924A36 /* libPods-DTCoreTestAutolayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTCoreTestAutolayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF8B99E2015198400B6A79B /* DTCoreTestAutolayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTCoreTestAutolayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF8B9A12015198400B6A79B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AF8B9A22015198400B6A79B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		5AF8B9AD2015198500B6A79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF8B9AF2015198500B6A79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AF8B9B02015198500B6A79B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF8B9B720151AD600B6A79B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		5AF8B9B820151AD600B6A79B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5AF8B9BA20151AE300B6A79B /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		5AF8B9BB20151AE300B6A79B /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		76CE89306A4B359D41C57615 /* Pods-DTCoreTestAutolayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCoreTestAutolayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTCoreTestAutolayoutDemo/Pods-DTCoreTestAutolayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD76CEEC485FBFADE1178C4B /* Pods-DTCoreTestAutolayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCoreTestAutolayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTCoreTestAutolayoutDemo/Pods-DTCoreTestAutolayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D466DC9890C57043C917E9 /* libPods-DTCoreTestAutolayoutDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				5AF8B9A02015198400B6A79B /* DTCoreTestAutolayoutDemo */,
 				5AF8B99F2015198400B6A79B /* Products */,
+				F98CA531ABF0A2EA4AE54D2C /* Pods */,
+				815CC844087E9FA6DE006509 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +75,10 @@
 				5AF8B9A22015198400B6A79B /* AppDelegate.m */,
 				5AF8B9A42015198400B6A79B /* ViewController.h */,
 				5AF8B9A52015198400B6A79B /* ViewController.m */,
+				5AF8B9B720151AD600B6A79B /* UIView+Frame.h */,
+				5AF8B9B820151AD600B6A79B /* UIView+Frame.m */,
+				5AF8B9BB20151AE300B6A79B /* MyLabel.h */,
+				5AF8B9BA20151AE300B6A79B /* MyLabel.m */,
 				5AF8B9A72015198400B6A79B /* Main.storyboard */,
 				5AF8B9AA2015198500B6A79B /* Assets.xcassets */,
 				5AF8B9AC2015198500B6A79B /* LaunchScreen.storyboard */,
@@ -71,6 +88,23 @@
 			path = DTCoreTestAutolayoutDemo;
 			sourceTree = "<group>";
 		};
+		815CC844087E9FA6DE006509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B92E61B643D19E8F924A36 /* libPods-DTCoreTestAutolayoutDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F98CA531ABF0A2EA4AE54D2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD76CEEC485FBFADE1178C4B /* Pods-DTCoreTestAutolayoutDemo.debug.xcconfig */,
+				76CE89306A4B359D41C57615 /* Pods-DTCoreTestAutolayoutDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF8B9B42015198500B6A79B /* Build configuration list for PBXNativeTarget "DTCoreTestAutolayoutDemo" */;
 			buildPhases = (
+				C6E4F64D5886C8A1517031CB /* [CP] Check Pods Manifest.lock */,
 				5AF8B99A2015198400B6A79B /* Sources */,
 				5AF8B99B2015198400B6A79B /* Frameworks */,
 				5AF8B99C2015198400B6A79B /* Resources */,
+				67A7146808270FA9D046E4E0 /* [CP] Embed Pods Frameworks */,
+				E9C174BEA0442675858D4747 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,11 +174,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67A7146808270FA9D046E4E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTCoreTestAutolayoutDemo/Pods-DTCoreTestAutolayoutDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E4F64D5886C8A1517031CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTCoreTestAutolayoutDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C174BEA0442675858D4747 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DTCoreTestAutolayoutDemo/Pods-DTCoreTestAutolayoutDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AF8B99A2015198400B6A79B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF8B9BC20151AE400B6A79B /* MyLabel.m in Sources */,
+				5AF8B9B920151AD700B6A79B /* UIView+Frame.m in Sources */,
 				5AF8B9A62015198400B6A79B /* ViewController.m in Sources */,
 				5AF8B9B12015198500B6A79B /* main.m in Sources */,
 				5AF8B9A32015198400B6A79B /* AppDelegate.m in Sources */,
@@ -276,6 +366,7 @@
 		};
 		5AF8B9B52015198500B6A79B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD76CEEC485FBFADE1178C4B /* Pods-DTCoreTestAutolayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +381,7 @@
 		};
 		5AF8B9B62015198500B6A79B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CE89306A4B359D41C57615 /* Pods-DTCoreTestAutolayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
